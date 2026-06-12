@@ -150,9 +150,5 @@ Then open `http://localhost:8501`
 
 ## 👩‍💻 Author
 
-**Shruti** · [GitHub](https://github.com/yourusername) · [LinkedIn](https://linkedin.com/in/yourusername)
-```
+**Shruti** · [GitHub](https://github.com/ShrutiPatel263) · [LinkedIn](https://linkedin.com/in/ShrutiPatel26)
 
----
-
-Just replace `yourusername` with your actual GitHub and LinkedIn username and you're done!
