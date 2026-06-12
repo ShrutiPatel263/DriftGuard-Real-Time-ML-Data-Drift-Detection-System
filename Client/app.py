@@ -11,12 +11,12 @@ API_URL = "http://localhost:8000"
 
 # ── Page config ────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Fraud Drift Monitor",
-    page_icon="🔍",
+    page_title="DriftGuard",
+    page_icon="🛡️",
     layout="wide"   # use full width of browser
 )
 
-st.title("🔍 Fraud Detection + Data Drift Monitor")
+st.title("🛡️ DriftGuard — Real-Time ML Data Drift Detection System")
 st.markdown("*Real-time fraud detection with automatic drift monitoring*")
 
 # ── Sidebar navigation ─────────────────────────────────────────────────────
