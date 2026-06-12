@@ -32,9 +32,9 @@ When a machine learning model is deployed in production, the real-world data it 
 
 ```
 DriftGuard/
-│── 01_fraud_detection.ipynb   # EDA + 5 model comparison
-│── 02_model_training.ipynb    # Train + save XGBoost model
-│── 03_data_simulator.ipynb    # Generate drift test data
+│── fraud_detection.ipynb   # EDA + 5 model comparison
+│── model_training.ipynb    # Train + save XGBoost model
+│── data_simulator.ipynb    # Generate drift test data
 ├── api/
 │   ├── main.py                    # FastAPI — 3 endpoints
 │   └── schemas.py                 # Pydantic request/response models
