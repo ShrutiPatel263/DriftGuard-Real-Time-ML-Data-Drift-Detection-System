@@ -140,7 +140,8 @@ Then open `http://localhost:8501`
 - **Full-stack ML app** — from research notebook to deployed dashboard
 
 ---
-## Demo Video : https://drive.google.com/file/d/1VhX3EN7OApRmGq02zNrG84nAk32wgmWJ/view?usp=drive_link
+## Demo Video 
+ https://drive.google.com/file/d/1VhX3EN7OApRmGq02zNrG84nAk32wgmWJ/view?usp=drive_link
 
 ## 📁 Dataset
 
