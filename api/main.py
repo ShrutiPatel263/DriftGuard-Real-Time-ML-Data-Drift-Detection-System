@@ -11,7 +11,7 @@ import sys
 sys.path.append('..')
 
 from api.schemas import TransactionInput, PredictionResponse, DriftResponse
-# CORRECT — drift_detection.py is at root level
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from drift_detection import detect_drift
 
@@ -23,12 +23,20 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # in production, replace * with your domain
+    allow_origins=["*"],   
     allow_methods=["*"],
     allow_headers=["*"]
 )
 
-with open('models/xgb_model.pkl', 'rb') as f:
+# with open('models/xgb_model.pkl', 'rb') as f:
+#     model = pickle.load(f)
+
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+MODEL_PATH = os.path.join(BASE_DIR, "models", "xgb_model.pkl")
+
+with open(MODEL_PATH, "rb") as f:
     model = pickle.load(f)
 
 
